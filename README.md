@@ -7,7 +7,9 @@ such as programs that used 100% CPU, set their own priority levels or consume
 too much memory.
 
 ``rlimit`` is really just a command line interface to the system functions
-``getrlimit()`` and ``setrlimit()``.
+``getrlimit()`` and ``setrlimit()``.  It is also very similar to the ``ulimit``
+command execpt that it only applies the limits to one process and it can
+set some limits that ``uname`` cannot.
 
 See ``LICENSE`` for license information.
 
