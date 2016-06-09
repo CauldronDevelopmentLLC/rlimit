@@ -42,6 +42,7 @@ This prints something like this:
 
 # Example: Limit process memory usage
 
-    rlimit -d10M target <options>
+    rlimit -a10M target <options>
 
-The above runs ``target <options>`` with a 10MiB memory allocation limit.
+The above runs ``target <options>`` with a 10MiB address space limit.  This
+effectively limits how much memory the program can allocate.

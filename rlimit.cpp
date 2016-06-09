@@ -140,7 +140,7 @@ struct Resource {
 
 Resource resources[] = {
 #ifdef RLIMIT_AS
-  {RLIMIT_AS,         "Address Space",      "address-space",'a'},
+  {RLIMIT_AS,         "Address Space",      "address-space", 'a'},
 #endif
 #ifdef RLIMIT_CORE
   {RLIMIT_CORE,       "Core Size",          "core", 'C'},
